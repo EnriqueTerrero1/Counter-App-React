@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <PrimeraApp  saludo="Enrique"></PrimeraApp> */}
+    <CounterApp value={234}/>
   </React.StrictMode>
 );
 
